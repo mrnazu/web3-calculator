@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "C:\\Users\\Hp\\Documents\\Projects\\solidity\\web3-calculator\\contracts\\Calculator.sol": {
-      "lastModificationDate": 1715661834568,
-      "contentHash": "b7daabb19cbeee183b6bfaee21a39d2f",
+      "lastModificationDate": 1715674615047,
+      "contentHash": "ecde053f769031427c20637041759f5c",
       "sourceName": "contracts/Calculator.sol",
       "solcConfig": {
         "version": "0.8.0",
@@ -30,7 +30,7 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.8.0"
+        ">=0.4.16 <0.9.0"
       ],
       "artifacts": [
         "Calculator"
