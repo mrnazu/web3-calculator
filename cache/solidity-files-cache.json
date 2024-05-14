@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Hp\\Documents\\Projects\\solidity\\web3-calculator\\contracts\\Calculator.sol": {
+      "lastModificationDate": 1715661834568,
+      "contentHash": "b7daabb19cbeee183b6bfaee21a39d2f",
+      "sourceName": "contracts/Calculator.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Calculator"
+      ]
+    }
+  }
+}

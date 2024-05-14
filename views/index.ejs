@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Solidity Calculator</title>
+    <link rel="stylesheet" href="/css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        #loading { display: none; color: blue; }
-    </style>
 </head>
 <body>
-    <h1>Solidity Calculator</h1>
-    <div>
-        <input type="number" id="num1" placeholder="Number 1">
-        <input type="number" id="num2" placeholder="Number 2">
+    <div class="container">
+        <h1>Solidity Calculator</h1>
+        <div>
+            <input type="number" id="num1" placeholder="Number 1">
+            <input type="number" id="num2" placeholder="Number 2">
+        </div>
+        <div>
+            <button onclick="performCalculation('add')">Add</button>
+            <button onclick="performCalculation('subtract')">Subtract</button>
+            <button onclick="performCalculation('multiply')">Multiply</button>
+            <button onclick="performCalculation('divide')">Divide</button>
+        </div>
+        <div>
+            <h2>Result: <span id="result"></span></h2>
+        </div>
+        <div id="loading">Calculating...</div>
     </div>
-    <div>
-        <button onclick="performCalculation('add')">Add</button>
-        <button onclick="performCalculation('subtract')">Subtract</button>
-        <button onclick="performCalculation('multiply')">Multiply</button>
-        <button onclick="performCalculation('divide')">Divide</button>
-    </div>
-    <div>
-        <h2>Result: <span id="result"></span></h2>
-    </div>
-    <div id="loading">Calculating...</div>
     <script>
         async function performCalculation(operation) {
             const num1 = document.getElementById("num1").value;
